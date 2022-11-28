@@ -5,7 +5,7 @@ import gitHubImg from '../Asset/contactGithub.png'
 import linkedImg from '../Asset/linkedIn.png'
 
 function Contactus() {
-  let title = [{name : "Your'e Welcome..."}, {name : "To Communicate With Device"}, {name : "All Creative Work Selected Projects"}, {name:"Lets Be Friends"}]
+  let title = [{name : "Your'e Welcome..."}, {name : "To Communicate With Web"}, {name : "All Creative Work, Selected Projects"}, {name:"Lets Be Friends"}]
   return <>
     <Heading data={title[3]}/>
     <div className='pageContact'>

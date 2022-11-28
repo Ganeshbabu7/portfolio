@@ -2,7 +2,7 @@ import React from 'react'
 import Heading from './Heading'
 
 function About() {
-  let title = [{name : "Your'e Welcome..."}, {name : "To Communicate With Device"}, {name : "All Creative Work Selected Projects"}, {name:"Lets Be Friends"}]
+  let title = [{name : "Your'e Welcome..."}, {name : "To Communicate With Web"}, {name : "All Creative Work, Selected Projects"}, {name:"Lets Be Friends"}]
   return <div>
       <Heading data={title[0]}/>
       <div  className="about">

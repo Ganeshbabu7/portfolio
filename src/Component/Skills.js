@@ -12,7 +12,7 @@ import Githublogo from '../Asset/Github.png'
 import VSCodelogo from '../Asset/VSCode.png'
 
 function Skills() {
-  let title = [{name : "Your'e Welcome..."}, {name : "To Communicate With Web"}, {name : "All Creative Work Selected Projects"}, {name:"Lets Be Friends"}]
+  let title = [{name : "Your'e Welcome..."}, {name : "To Communicate With Web"}, {name : "All Creative Work, Selected Projects"}, {name:"Lets Be Friends"}]
   return <>
      <Heading data={title[1]}/>
      <div className="skills">

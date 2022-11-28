@@ -61,17 +61,6 @@ code {
   background-color: #4D3D87;
   color: #FBB04E;
 }
-/* .photo {
-  position: relative;
-  top: -16em;
-  left: 34em;
-}
-.photo img {
-  width: 15em;
-  height: 15em;
-  object-fit: cover;
-  border-radius: 50%;
-} */
 .heading{
   height: 4em;
   padding-top: 1em;
@@ -182,6 +171,8 @@ code {
   border-top-right-radius: 0.5em;
 }
 .image:hover {
+  display: block;
+  color: #FBB04E;
   opacity: 50%;
 }
 .card h3 {
@@ -682,9 +673,6 @@ code {
     margin: 1em 0em;
   }
 }
-
-
-
 @media screen and (min-width:1025px) and (max-width:1440px){  
   .about, .skills, .projects, .pageContact, .introduction {
     height: auto;
